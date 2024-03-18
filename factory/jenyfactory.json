@@ -1,0 +1,9 @@
+{
+	"name": "jenyfactory",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6067aa9f-285a-4e57-82a3-ae7d7274dc4a",
+		"tenantId": "2d2199a8-cb98-4269-b2ae-c63cf2b7c7f0"
+	}
+}
