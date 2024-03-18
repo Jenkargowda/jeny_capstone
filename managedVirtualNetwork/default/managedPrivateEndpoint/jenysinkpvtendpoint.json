@@ -1,0 +1,7 @@
+{
+	"name": "jenysinkpvtendpoint",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/8d70b7b4-d2e4-4262-bb0f-0b4608c1a795/resourceGroups/jenkar.n/providers/Microsoft.Storage/storageAccounts/jenkarcapstoneadls",
+		"groupId": "dfs"
+	}
+}
