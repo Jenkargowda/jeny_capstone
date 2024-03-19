@@ -1,5 +1,5 @@
 {
-	"name": "sourcegit",
+	"name": "sourcegitstep1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "GitToRawLS",
