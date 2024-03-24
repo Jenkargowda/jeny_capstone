@@ -121,13 +121,13 @@
 				"type": "DatabricksNotebook",
 				"dependsOn": [
 					{
-						"activity": "Copy data1",
+						"activity": "Copy data2",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					},
 					{
-						"activity": "Copy data2",
+						"activity": "Copy data1",
 						"dependencyConditions": [
 							"Succeeded"
 						]
