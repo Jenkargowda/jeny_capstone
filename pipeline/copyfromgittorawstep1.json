@@ -115,6 +115,66 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "Bronze_Notebook",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/jenkar.n@fractal.ai/Jenkar Bronze Final"
+				},
+				"linkedServiceName": {
+					"referenceName": "Notebook_Activity",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "Silver_Notebook",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/jenkar.n@fractal.ai/Jenkar Silver Final"
+				},
+				"linkedServiceName": {
+					"referenceName": "Notebook_Activity",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "Gold_Notebook",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/jenkar.n@fractal.ai/Jenkar Gold Final"
+				},
+				"linkedServiceName": {
+					"referenceName": "Notebook_Activity",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
