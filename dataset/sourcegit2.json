@@ -1,5 +1,5 @@
 {
-	"name": "sourcegitstep1",
+	"name": "sourcegit2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "GitToRawLS",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Jenkargowda/jeny_capstone/main/SharkTankUSDealsData.csv"
+				"relativeUrl": "Jenkargowda/jeny_capstone/main/SharkTankUSPitchNumber.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
